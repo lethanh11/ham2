@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let name = "hello"
+        let mang=[];
+        let ham=doixung();
+        function doixung(){
+            for(let i=0;i<name.length;i++){
+                mang.push(name[i]);
+            } mang.reverse();
+            return mang.join("");
+        }   document.write(ham);
+        if(ham === name){
+            document.write('Chuỗi này đối xứng');
+        } else {
+            document.write('Chuỗi này không đối xứng');
+        }
+
+    
+    </script>
+</body>
+</html>
