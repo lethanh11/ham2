@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let so1= Math.floor(Math.random()*100);
+        let so2= Math.floor(Math.random()*100);
+        let so3= Math.floor(Math.random()*100);
+        function songuyen() {
+            if(so1<so2){
+             if(so1<so3)
+                alert("Số Nguyên nhỏ nhất là " + so1);
+            } else if ( so2<so3){
+                alert('Số nguyên nhỏ nhất là ' + so2);
+            } else {
+                alert('Số nguyên nhỏ nhất là ' +so3);
+            }
+        } 
+        songuyen();
+        document.write("Số thứ nhất: " + so1+'<br>'+"Số thứ hai: "+so2+"<br>"+"Số thứ ba: " + so3);
+
+    </script>
+</body>
+</html>
